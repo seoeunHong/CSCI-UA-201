@@ -39,20 +39,20 @@ if all test are passed, you can see this result:
 
 > $ ./clab_test <br/>
 > ---Start testing bitfloat.c <br/>
-> get_bit_at_pos...passed <br/>
-> set_bit_at_pos...passed <br/>
-> get_most_significant_byte...passed <br/>
-> sum_overflowed...passed <br/>
-> get_exponent_field...passed <br/>
+>    get_bit_at_pos...passed <br/>
+>    set_bit_at_pos...passed <br/>
+>    get_most_significant_byte...passed <br/>
+>    sum_overflowed...passed <br/>
+>    get_exponent_field...passed <br/>
 > ---Test bitfloat.c Passed <br/>
 > ---Start testing ptr.c <br/>
-> set_to_five...passed <br/>
-> initialize_ptr...passed <br/>
-> swap_int...passed <br/>
+>    set_to_five...passed <br/>
+>    initialize_ptr...passed <br/>
+>    swap_int...passed <br/>
 > ---Test ptr.c Passed <br/>
 > ---Start testing array.c <br/>
-> array_sum...passed <br/>
-> array_cpy...passed <br/>
-> bubble_sort...passed <br/>
-> big_to_little_endian...passed <br/>
+>    array_sum...passed <br/>
+>    array_cpy...passed <br/>
+>    bubble_sort...passed <br/>
+>    big_to_little_endian...passed <br/>
 > ---Test array.c Passed <br/>
