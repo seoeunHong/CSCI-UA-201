@@ -37,22 +37,22 @@ Learning some basic C programming by writing down simple C functions and debuggi
 Type `$ ./clab_test` in to your terminal
 if all test are passed, you can see this result:
 
-> $ ./clab_test
-> ---Start testing bitfloat.c
-> get_bit_at_pos...passed
-> set_bit_at_pos...passed
-> get_most_significant_byte...passed
-> sum_overflowed...passed
-> get_exponent_field...passed
-> ---Test bitfloat.c Passed
-> ---Start testing ptr.c
-> set_to_five...passed
-> initialize_ptr...passed
-> swap_int...passed
-> ---Test ptr.c Passed
-> ---Start testing array.c
-> array_sum...passed
-> array_cpy...passed
-> bubble_sort...passed
-> big_to_little_endian...passed
-> ---Test array.c Passed
+> $ ./clab_test.
+> ---Start testing bitfloat.c.
+> get_bit_at_pos...passed.
+> set_bit_at_pos...passed.
+> get_most_significant_byte...passed.
+> sum_overflowed...passed.
+> get_exponent_field...passed.
+> ---Test bitfloat.c Passed.
+> ---Start testing ptr.c.
+> set_to_five...passed.
+> initialize_ptr...passed.
+> swap_int...passed.
+> ---Test ptr.c Passed.
+> ---Start testing array.c.
+> array_sum...passed.
+> array_cpy...passed.
+> bubble_sort...passed.
+> big_to_little_endian...passed.
+> ---Test array.c Passed.
