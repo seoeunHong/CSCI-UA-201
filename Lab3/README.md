@@ -41,7 +41,7 @@ My code for each function are based on their x86-64 assembly code
 
 ## Test
 
-Type `$ ./clab_test` in to your terminal
+Type `$ make` and `./tester` in to your terminal.
 if all test are passed, you can see this result:
 
 > $ make <br/>
