@@ -35,6 +35,7 @@ Then it will show x86-64 assembly code on your commend line
       1d: 48 39 f2                      cmpq    %rsi, %rdx
       20: 7c ea                         jl      0xc <ex2+0xc>
       22: f3 c3                         rep             retq
+...
 ```
 
 My code for each function are based on their x86-64 assembly code
