@@ -12,10 +12,10 @@ Explore the design space creatively and implement an allocator that is correct, 
 - **mm_malloc**: Allocate size bytes of contigous space on the heap. Return a pointer to the allocated space. (Allocated space lie within the heap region and not overlap others)
 - **mm_free**: Free the corresponding chunk whose payload is pointed by ptr. Return nothing.
 - **mm_realloc**: Allocate size bytes of continuious space, with the following contraints.
-  &nbsp; * if ptr is NULL, the call is equivalent to mm_malloc(size)
-  &nbsp; *if size is equal to zero, the call is equivalent to mm_free(ptr)};
-  &nbsp; \* if ptr is not NULL, it must have been returned by an earlier call to mm_malloc or mm_realloc.
-  &nbsp; Change the memory block pointed to by ptr (i.e.the old block) to one with size bytes and returns the address of the new block.
+  &nbsp; * if ptr is NULL, the call is equivalent to mm_malloc(size) <br/>
+  &nbsp; *if size is equal to zero, the call is equivalent to mm_free(ptr)}; <br/>
+  &nbsp; \* if ptr is not NULL, it must have been returned by an earlier call to mm_malloc or mm_realloc. <br/>
+  &nbsp; Change the memory block pointed to by ptr (i.e.the old block) to one with size bytes and returns the address of the new block. <br/>
 - **mm_checkheap**: Check consistency of my heap
 
 ## Test
