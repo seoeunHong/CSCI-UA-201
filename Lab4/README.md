@@ -54,7 +54,7 @@ All the tracefiles can be found in the traces/ subdirectory.
 
 You can type `$./implicit-mdriver -h` to see a full list of command line options. Here's the example output if the tester runs successfully.
 
-> $ ./implicit-mdriver
-> Using default tracefiles in ./traces/
-> Performance index = 60.0 _ util + 40.0 _ (your throughput)/(libc's throughput)
-> 11 out of 11 traces passed, average performance index 48.4 (out of 100.0)
+> $ ./implicit-mdriver <br/>
+> Using default tracefiles in ./traces/ <br/>
+> Performance index = 60.0 _ util + 40.0 _ (your throughput)/(libc's throughput) <br/>
+> 11 out of 11 traces passed, average performance index 48.4 (out of 100.0) <br/>
