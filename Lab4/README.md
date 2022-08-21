@@ -1,4 +1,4 @@
-# Lab 3: Binary Mystery
+# Lab 4: Malloc lab
 
 Make my own version of the malloc: the dynamic storage allocator for C programs.
 Explore the design space creatively and implement an allocator that is correct, efficient and fast.
