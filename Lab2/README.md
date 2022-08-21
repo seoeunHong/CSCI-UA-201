@@ -36,5 +36,5 @@ if all test are passed, you can see this result:
 > string_len...passed <br/>
 > string_cmp...passed <br/>
 > int_to_hex...passed <br/>
-> ---Test str.c Passed
+> ---Test str.c Passed <br/>
 > ...
